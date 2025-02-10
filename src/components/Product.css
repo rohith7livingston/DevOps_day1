@@ -1,0 +1,35 @@
+h1{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+img{
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    margin-top: 2px;
+}
+.product
+{
+    text-align: center;
+    border: 0px solid black;
+    flex-direction: column;
+    width: 300px;
+    height: 350px;
+    background-color: rgb(255, 234, 234);
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+button{
+    background-color: rgb(255, 64, 64);
+    width: 130px;
+    height: 30px;
+    border-radius: 10px;
+    border: none;
+    margin-left: 7%;
+}
+button:hover
+{
+    background-color: rgb(255, 93, 93);
+    transition: 2s;
+    cursor: pointer;
+}
